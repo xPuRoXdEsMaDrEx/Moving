@@ -1,0 +1,12 @@
+.container-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-contact {
+    
+}
+
+.card {
+    display: flex;
+}
