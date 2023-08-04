@@ -1,12 +1,45 @@
+/* Resets the box size of every element */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1 {
+    color: rgb(13, 151, 152);
+}
+
+h2 {
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 15px;
+}
+
+.company {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.company-title {
+    text-align: left;
+    display: flex;
+}
+
 .container-layout {
+    margin: 75px 75px 30px 75px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container-contact {
-    
+    font-size: 25px;
+    text-align: center;
 }
 
-.card {
+.navcard {
+    margin-top: 10px;
     display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
 }
