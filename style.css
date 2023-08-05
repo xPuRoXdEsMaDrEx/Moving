@@ -5,6 +5,10 @@
     box-sizing: border-box;
   }
 
+a {
+    color: black;
+}
+
 h1 {
     color: rgb(13, 151, 152);
 }
@@ -13,6 +17,20 @@ h2 {
     color: white;
     -webkit-text-stroke: 0.5px black;
     font-size: 15px;
+}
+
+section {
+    display: flex;
+    margin: 55px 95px 30px 95px;
+}
+
+.buttons {
+display: flex;
+justify-content: space-evenly;
+}
+
+.black {
+    font-weight: bold;
 }
 
 .company {
@@ -33,13 +51,44 @@ h2 {
 }
 
 .container-contact {
-    font-size: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(13, 151, 152);
+}
+
+.email:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.navcard {
+.navbar {
     margin-top: 10px;
     display: flex;
     font-size: 30px;
     justify-content: space-evenly;
+}
+
+#directory {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 45px;
+}
+
+#main-image {
+   margin-left: 95px;
+    max-width: 40%;
+    height: auto;
+}
+
+#navtab {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 8px;
 }
