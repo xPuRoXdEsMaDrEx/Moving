@@ -9,14 +9,22 @@ a {
     color: black;
 }
 
+body {
+    background-image: repeating-linear-gradient(rgba(73, 124, 120), rgba(117, 166, 164), rgba(157, 204, 204), rgba(73, 124, 120));
+}
+
 h1 {
-    color: rgb(13, 151, 152);
+    font-size: 43px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
     color: white;
     -webkit-text-stroke: 0.5px black;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 section {
@@ -24,7 +32,10 @@ section {
     margin: 55px 95px 30px 95px;
 }
 
+/* Class Selectors */
+
 .buttons {
+    font-size: 22px;
 display: flex;
 justify-content: space-evenly;
 }
@@ -51,7 +62,7 @@ justify-content: space-evenly;
 }
 
 .container-contact {
-    font-size: 30px;
+    font-size: 33px;
     text-align: center;
     color: rgb(13, 151, 152);
 }
@@ -62,6 +73,7 @@ justify-content: space-evenly;
 }
 
 .foot {
+    font-size: 12px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -73,6 +85,8 @@ justify-content: space-evenly;
     font-size: 30px;
     justify-content: space-evenly;
 }
+
+/* ID Selectors */
 
 #directory {
     display: flex;
