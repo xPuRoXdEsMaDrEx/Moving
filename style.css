@@ -16,8 +16,8 @@ body {
 h1 {
     font-size: 43px;
     background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -84,6 +84,10 @@ justify-content: space-evenly;
     display: flex;
     font-size: 30px;
     justify-content: space-evenly;
+}
+
+.questions {
+    font-size: 30px;
 }
 
 /* ID Selectors */
